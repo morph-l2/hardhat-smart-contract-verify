@@ -2,7 +2,7 @@
   "name": "hardhat-smart-contract-verify",
   "scripts": {
     "compile": "npx hardhat compile",
-    "deploy:testnet": "NODE_ENV=testnet npx hardhat run scripts/deploy.js --network testnet",
+    "deploy:testnet": "NODE_ENV=testnet npx hardhat run scripts/deploy.js --network testnet"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.2",
